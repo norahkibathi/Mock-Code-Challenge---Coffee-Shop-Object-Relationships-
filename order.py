@@ -11,7 +11,9 @@ class Order:
     @property
     def price(self):
         # Getter method for price property
+        print (self._price)
         return self._price
+    
 
     @price.setter
     def price(self, value):
@@ -58,9 +60,10 @@ class Order:
         price = float(input("Enter order price: "))
         customer = Customer(customer_name)
         coffee = Coffee(coffee_name)
+       # print (cls(customer.name, coffee., price))
         return cls(customer, coffee, price)
 if __name__ == "__main__":
     # Call create_order method on Order class
-    create_order = Order.create_order()
+    final_create_order = Order.create_order()
     print("This is the order details:")
-    print(create_order)
+    print(final_create_order .customer.name ,final_create_order .coffee.coffee_names ,final_create_order .price )
