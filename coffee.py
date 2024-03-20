@@ -24,3 +24,5 @@ class Coffee:
         @classmethod
         def coffee_names(cls):
             return cls._coffee_names.copy()   
+def _str_(self):
+        return self.name

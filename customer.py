@@ -31,3 +31,5 @@ def create_customer():
             return customer
         except ValueError as e:
             print(e)
+def __str__(self):
+        return self.name
